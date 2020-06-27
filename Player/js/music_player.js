@@ -12,7 +12,7 @@ function down(){
     	//document.getElementById("square_cover_wrapper").style="transform:scale(0.5)";
     	document.getElementById("square_cover_wrapper").style="width:60px;height:60px;border-radius:5px";
     	document.getElementById("square_cover").style="width:60px";
-    	var t=setTimeout(function(){location.reload(true);},3000);
+    	var t=setTimeout(function(){location.reload(true);},4000);
 }
 
 function up(){
