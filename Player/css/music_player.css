@@ -334,14 +334,10 @@ audio{
 	width:25;
 	height:25;
 	display:flex;
-	
 	transition-duration: 0.1s;
 	transition-timing-function: linear;
 }
-#next{
-	transition-duration: 0.1s;
-	transition-timing-function: linear;
-}
+
 #next:hover{
 	cursor:pointer;
 	transform:scale(1.1);	
