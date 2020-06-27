@@ -308,6 +308,7 @@ audio{
 	margin:auto 0;
 	transition-duration: 0.1s;
 	transition-timing-function: linear;
+	z-index:5;
 }
 #pre:hover{
 	cursor:pointer;
@@ -322,6 +323,7 @@ audio{
 	margin:auto;
 	transition-duration: 0.1s;
 	transition-timing-function: linear;
+	z-index:5;
 }
 #play_pause:hover{
 	cursor:pointer;
@@ -336,6 +338,7 @@ audio{
 	display:flex;
 	transition-duration: 0.1s;
 	transition-timing-function: linear;
+	z-index:5;
 }
 
 #next:hover{
@@ -356,6 +359,7 @@ audio{
 	display:none;
 	justify-content: center;
 	align-items: center;
+       z-index:5;
 }
 .down_down{
 	visibility: hidden;
