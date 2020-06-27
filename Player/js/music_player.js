@@ -3,7 +3,7 @@ var player_status=1;
 var state=0;
 
 function down(){
-	    //document.getElementById("main").style="transform:translateY(0) scale(1);border-radius:0;";
+	    document.getElementById("main").style="transform:translateY(0) scale(1);border-radius:0;";
     	document.getElementById("bottom_player").className="player_down";
     	//document.getElementById("head_wrapper").style="transform:translateY(0);"
     	document.getElementById("bottom_bar").className="bottom_bar_up";
@@ -16,8 +16,8 @@ function down(){
 }
 
 function up(){
-	//window.location.href="#head";
-	//document.getElementById("main").style="transform: translateY(-1%) scale(0.95);border-radius:20px;filter:blur(2px)";
+	window.location.href="#head";
+	document.getElementById("main").style="transform: translateY(-1%) scale(0.95);border-radius:20px;filter:blur(2px)";
 	//player_status=1;
 	//document.getElementById("main").style="filter:blur(2px);";
 	document.getElementById("bottom_player").style="bottom:0;border-radius:20px;opacity:0.96";
