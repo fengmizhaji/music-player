@@ -336,6 +336,7 @@ audio{
 	width:25;
 	height:25;
 	display:flex;
+        margin:auto 0;
 	transition-duration: 0.1s;
 	transition-timing-function: linear;
 	z-index:5;
